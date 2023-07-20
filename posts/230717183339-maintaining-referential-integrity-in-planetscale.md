@@ -5,13 +5,12 @@ tags:
     - referential integrity
     - data duplication
 date: 2023-07-17T18:33:39.941Z
-icon: other
+icon: database
 ---
 
 Planetscale has no foreign key support, so to maintain referential integrity
 
-* Don't be afraid to duplicate data
-* Use `on delete no action`
+* Use normalized forms to handle duplicates
 * Then run cleanup scripts regularly to reclaim the space
 
 ## Link
